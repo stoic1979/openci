@@ -1,5 +1,5 @@
 #!/usr/bin/python
-from .utils import verbose_print
+from utils import verbose_print
 
 import requests
 import json

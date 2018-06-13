@@ -7,8 +7,8 @@ import yaml
 from os.path import expanduser, isfile
 import ConfigParser
 
-from .jenkinsci import JenkinsCI
-from .gitlabci import GitlabCI
+from jenkinsci import JenkinsCI
+from gitlabci import GitlabCI
 
 from utils import get_file_data, confirm_yes_no, create_config
 
